@@ -30,3 +30,5 @@ else:
     
     except json.JSONDecodeError:
         print("Error: Failed to parse JSON file.")
+    except Exception as e:
+        print(f"Error: {e}")
